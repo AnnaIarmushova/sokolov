@@ -21,7 +21,7 @@ public class BasePage {
 
     public WebDriverWait getWait3() {
         if (wait3 == null) {
-            wait3 = new WebDriverWait(getDriver(), Duration.ofSeconds(3));
+            wait3 = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
         }
         return wait3;
     }
